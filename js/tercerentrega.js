@@ -85,5 +85,6 @@ function removeFromCart(productId) {
       cart = [];
       saveCart();
       displayCart();
+      cart.length === 0 && console.log("El carrito está vacío!")
   }
   
